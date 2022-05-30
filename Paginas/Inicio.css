@@ -1,0 +1,49 @@
+*{
+    background-color: bisque;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    width: auto;
+    
+}
+body {
+    
+    background-image: url(./imagenes/portada\ lana\ 1.jpg);
+    background-repeat: no-repeat;
+    width: max-content;
+}
+header {
+    color: darkred;
+    background-color: darksalmon;
+    display: flexbox;
+    font-family: sans-serif;
+     font-size: xx-large;
+     font-style: italic;
+     text-align: center;
+     text-decoration: underline;
+}
+@media screen and (max-width: 600px){
+
+body {
+    width: auto;
+}
+    header {
+        font-size: medium;
+        background-color: rgb(245, 140, 101);
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        color: darkred;
+        
+    }
+    section {
+        display: flex;
+        border: 1px solid;
+        background-color: coral;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: initial;
+    }
+}

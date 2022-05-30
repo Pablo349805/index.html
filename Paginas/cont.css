@@ -1,0 +1,105 @@
+* {
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    margin: 1%;
+    padding: 1%;
+    font-family: sans-serif;
+    text-align: center;  
+   
+}
+
+
+header {
+    font-size: xx-large;
+    background-color: rgb(245, 140, 101);
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    color: darkred;
+
+}
+
+section {
+    display: flex;
+    border: 3px solid;
+    background-color: coral;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: initial;
+}
+
+.caja1 {
+    border: 1px solid rgb(121, 1, 1);
+    background-color: rgb(248, 34, 27);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 400px;
+    height: auto;
+    line-height: 120px;
+    align-content: center;
+    order: 3;
+}
+.caja2 {
+    border: 1px solid rgb(121, 1, 1);
+    background-color: rgb(35, 168, 63);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 400px;
+    height: auto;
+    line-height: 120px;
+    align-content: center;
+    order: 4;
+}
+.caja3 {
+    border: 1px solid rgb(121, 1, 1);
+    background-color: rgb(207, 67, 132);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 400px;
+    height: auto;
+    line-height: 120px;
+    align-content: center;
+    order: 1;
+}
+.caja4 {
+    border: 1px solid rgb(121, 1, 1);
+    background-color: rgb(53, 42, 207);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 400px;
+    height: auto;
+    line-height: 120px;
+    align-content: center;
+    order: 2;
+}
+
+@media screen and (max-width: 600px){
+
+
+    header {
+        font-size: medium;
+        background-color: rgb(245, 140, 101);
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        color: darkred;
+        
+    }
+    section {
+        display: flex;
+        border: 1px solid;
+        background-color: coral;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: initial;
+    }
+}
